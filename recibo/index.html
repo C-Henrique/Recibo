@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="icon" type="imagem/png" href="img/icon-page.png">
+  <title>Recibo</title>
+</head>
+
+<body>
+  <main id="main">
+    <header id="header">
+      <div class="header--img">
+        <img src="img/logo.png" alt="Auto Peças Padre Cícero" />
+      </div>
+      <div class="header--infor">
+        <div class="infor-content">
+          <span>Av Prof Gomes de Matos, 1368 Montese</span>
+          <span>Fortaleza-Ce CEP: 60.420.432</span>
+          <span>Fone: (85) 3499-9000</span>
+        </div>
+        <div class="infor-title">
+          <h3><strong>Recibo</strong></h3>
+        </div>
+      </div>
+      <div class="header--doc">
+        <div class="doc-num">
+          <h3>No:</h3>
+          <input class="inp_no1" type="number" />
+        </div>
+        <div class="doc-money">
+          <label for="money">R$</label>
+          <input class="inp_mon1" name="money" type="text" min="0.00" step="0.01" />
+        </div>
+      </div>
+    </header>
+    <section id="content">
+      <div class="content--recib">
+        <label for="name">Recebi(emos) de:</label>
+        <input class="inp_rec1" type="text" name="name" />
+      </div>
+      <div class="content--quant">
+        <label for="quant">A Quantia de :</label>
+        <input disabled type="text" class="inp_qua1" name="quant" />
+      </div>
+      <div class="content--ref">
+        <label for="ref">Referente a:</label>
+        <textarea class="tex_are1" name="ref"></textarea>
+      </div>
+      <div class="content--assi">
+        <div class="assi-name">
+          <input disabled type="text" />
+          <span>Assinatura</span>
+        </div>
+        <div class="assi-date">
+          <span>Fortaleza,</span>
+          <input class="inp_d1" type="date" required />
+
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <footer>
+        <span>cobranca@pecicero.com.br</span>
+      </footer>
+    </section>
+  </main>
+  <main id="main">
+    <header id="header">
+      <div class="header--img">
+        <img src="img/logo.png" alt="Auto Peças Padre Cícero" />
+      </div>
+      <div class="header--infor">
+        <div class="infor-content">
+          <span>Av Prof Gomes de Matos, 1368 Montese</span>
+          <span>Fortaleza-Ce CEP: 60.420.432</span>
+          <span>Fone: (85) 3499-9000</span>
+        </div>
+        <div class="infor-title">
+          <h3><strong>Recibo</strong></h3>
+        </div>
+      </div>
+      <div class="header--doc">
+        <div class="doc-num">
+          <h3>No:</h3>
+          <input class="inp_no2" type="number" />
+        </div>
+        <div class="doc-money">
+          <label for="money">R$</label>
+          <input class="inp_mon2" name="money" type="text" min="0.00" step="0.01" />
+        </div>
+      </div>
+    </header>
+    <section id="content">
+      <div class="content--recib">
+        <label for="name">Recebi(emos) de:</label>
+        <input class="inp_rec2" type="text" name="name" />
+      </div>
+      <div class="content--quant">
+        <label for="quant">A Quantia de :</label>
+        <input disabled type="text" class="inp_qua2" name="quant" />
+      </div>
+      <div class="content--ref">
+        <label for="ref">Referente a:</label>
+        <textarea class="tex_are2" name="ref"></textarea>
+      </div>
+      <div class="content--assi">
+        <div class="assi-name">
+          <input disabled type="text" />
+          <span>Assinatura</span>
+        </div>
+        <div class="assi-date">
+          <span>Fortaleza,</span>
+          <input class="inp_d2" type="date" required />
+
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <footer>
+        <span>cobranca@pecicero.com.br</span>
+      </footer>
+    </section>
+
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="js/extenso.js"></script>
+</body>
+
+</html>
